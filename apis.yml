@@ -1,0 +1,32 @@
+aid: apimetro
+name: Apimetro
+description: "Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.)"
+url: https://apimetro.dev/swagger/index.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: Apimetro
+    description: "Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.)"
+    humanURL: https://apimetro.dev/swagger/index.html
+    baseURL: https://apimetro.dev/swagger/index.html
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: https://apimetro.dev/swagger/index.html
+common:
+  - type: Website
+    url: https://apimetro.dev/swagger/index.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

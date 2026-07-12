@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://apimetro.dev/swagger/index.html
 common:
+  - type: DomainSecurity
+    url: security/apimetro-domain-security.yml
   - type: Website
     url: https://apimetro.dev/swagger/index.html
   - type: PublicAPIsListing

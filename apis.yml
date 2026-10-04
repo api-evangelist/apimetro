@@ -39,7 +39,6 @@ apis:
   - name: Apimetro
     description: "Geospatial data for Mexico City public transport system (Metro, Metrobús, Cablebús, RTP, etc.)"
     humanURL: https://apimetro.dev/swagger/index.html
-    baseURL: https://apimetro.dev/swagger/index.html
     tags:
       - Transportation
     properties:
